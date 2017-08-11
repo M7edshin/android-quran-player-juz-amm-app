@@ -259,11 +259,6 @@ public class PlayerActivity extends AppCompatActivity implements MediaController
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.btnExit:
-                finish();
-                System.exit(0);
-                return true;
-
             case R.id.btnMishary:
                 //Open Website Intent
                 String url = "https://en.wikipedia.org/wiki/Mishary_Rashid_Alafasy";
@@ -273,6 +268,14 @@ public class PlayerActivity extends AppCompatActivity implements MediaController
                     startActivity(intent);
                 }
                 return true;
+            case R.id.btnSuggest:
+                sendEmail("Suggest or Report");
+                return true;
+            case R.id.btnExit:
+                finish();
+                System.exit(0);
+                return true;
+
             default:
                 // If we got here, the user's action was not recognized.
                 // Invoke the superclass to handle it.
@@ -288,4 +291,16 @@ public class PlayerActivity extends AppCompatActivity implements MediaController
         return super.onCreateOptionsMenu(menu);
     }
 
+    private void sendEmail(String text) {
+        Intent i = new Intent(Intent.ACTION_SEND);
+        i.setType("message/rfc822");
+        i.putExtra(Intent.EXTRA_EMAIL, new String[]{"M7edshin@gmail.com"});
+        i.putExtra(Intent.EXTRA_SUBJECT, text);
+        i.putExtra(Intent.EXTRA_TEXT, "Your Message");
+        try {
+            startActivity(Intent.createChooser(i, "Send mail..."));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(PlayerActivity.this, "There are no email clients or apps installed on your device.", Toast.LENGTH_SHORT).show();
+        }
+    }
 }

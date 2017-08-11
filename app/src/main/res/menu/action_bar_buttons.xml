@@ -3,7 +3,12 @@
 
     <item
         android:id="@+id/btnMishary"
-        android:title="About Mishary Rashid Alafasy"
+        android:title="About Mishary Rashid"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/btnSuggest"
+        android:title="Suggest or Report"
         app:showAsAction="never" />
 
     <item
