@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ListViewStyle">
+
+    <TextView
+        android:id="@+id/tvAlzikr"
+        android:text="@string/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ItemListViewZikr"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tvTimes"
+        android:text="@string/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ItemListViewTimes"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorGreyDarkLevel" />
+
+    <TextView
+        android:id="@+id/tvBenefits"
+        android:text="@string/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ItemListViewBenefits"
+        android:textColor="@color/colorBlack" />
+
+</LinearLayout>

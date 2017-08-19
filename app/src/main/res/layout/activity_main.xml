@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shahin.quranmisharyrashid.MainActivity"
+    android:background="@color/colorBlack">
+
+    <TextView
+        android:id="@+id/tvQuranPlayer"
+        android:text="@string/quran_juz_amm_recitation_by_mishary_rashid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/MainActivityStyle"
+        android:background="@color/colorMainQuran" />
+
+    <TextView
+        android:id="@+id/tvAzkarSabahwMasaa"
+        android:text="@string/azkar_sabah_masaa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/MainActivityStyle"
+        android:background="@color/colorMainAzkarSabahMasaa" />
+
+</LinearLayout>
