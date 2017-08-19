@@ -36,7 +36,7 @@ public class AudioAdapter extends ArrayAdapter<Audio> {
 
             viewHolder = new ViewHolder();
             LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.verse_layout_item_list, parent, false);
+            convertView = inflater.inflate(R.layout.verse_item_list, parent, false);
             viewHolder.verseTitle = (TextView) convertView.findViewById(R.id.tvSura);
             viewHolder.verseTransliteration = (TextView) convertView.findViewById(R.id.tvSuraArEn);
             viewHolder.verseEnglishTitle = (TextView) convertView.findViewById(R.id.tvSuraEn);

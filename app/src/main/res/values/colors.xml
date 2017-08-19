@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#1B5E20</color>
-    <color name="colorPrimaryDark">#1B5E20</color>
-    <color name="colorAccent">#1B5E20</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorMainQuran">#607D8B</color>
+    <color name="colorMainAzkarSabahMasaa">#03A9F4</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGreyDarkLevel">#212121</color>
 </resources>

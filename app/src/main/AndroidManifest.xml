@@ -10,13 +10,18 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".PlayerActivity"
-            android:configChanges="locale|orientation|screenSize">
+            android:configChanges="locale|orientation|screenSize"
+            android:label="@string/quran_juz_amm_recitation_by_mishary_rashid"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AzkarSabahMasaaActivity"></activity>
     </application>
 
 </manifest>
