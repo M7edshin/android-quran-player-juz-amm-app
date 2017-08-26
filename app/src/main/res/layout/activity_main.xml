@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="shahin.quranmisharyrashid.MainActivity"
+    tools:context="shahin.quranmisharyrashid.Activities.MainActivity"
     android:background="@color/colorBlack">
 
     <TextView
@@ -24,5 +24,33 @@
         android:layout_weight="1"
         style="@style/MainActivityStyle"
         android:background="@color/colorMainAzkarSabahMasaa" />
+
+    <TextView
+        android:id="@+id/tvTasabeeh"
+        android:text="@string/tasabeeh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/MainActivityStyle"
+        android:background="@color/colorMainTasabeeh" />
+
+    <TextView
+        android:id="@+id/tvAltawba"
+        android:text="@string/altawba"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/MainActivityStyle"
+        android:background="@color/colorMainAlTawba" />
+
+    <TextView
+        android:id="@+id/tvFridayKahfFadaal"
+        android:text="@string/friday_kahf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/MainActivityStyle"
+        android:background="@color/colorMainFridayAndKahf" />
+
 
 </LinearLayout>

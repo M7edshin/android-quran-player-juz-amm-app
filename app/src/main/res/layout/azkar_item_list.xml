@@ -19,8 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/ItemListViewTimes"
-        android:textColor="@color/colorWhite"
-        android:background="@color/colorGreyDarkLevel" />
+        android:textColor="@color/colorGreyDarkLevel" />
 
     <TextView
         android:id="@+id/tvBenefits"

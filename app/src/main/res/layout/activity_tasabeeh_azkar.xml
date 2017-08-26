@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="shahin.quranmisharyrashid.Activities.AzkarSabahMasaaActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorMainTasabeeh">
+
+    <TextView
+        android:text="@string/note_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MainActivityStyle"
+        android:layout_margin="@dimen/size_10" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/listview_tasabeeh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="shahin.quranmisharyrashid.Activities.TasabeehAzkarActivity">
+
+    </ListView>
+
+
+</LinearLayout>
+
+

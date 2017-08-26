@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="shahin.quranmisharyrashid.Activities.AltawbaActivity"
+    android:background="@color/colorMainAlTawba">
+
+
+    <ListView
+        android:id="@+id/list_altawba"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorMainAlTawba"
+        android:divider="@android:drawable/editbox_background_normal"
+        android:dividerHeight="20dp"
+        android:padding="@dimen/size_5">
+
+    </ListView>
+
+
+    <VideoView
+        android:id="@+id/video_view_quran_asrafoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_5" />
+
+
+</LinearLayout>

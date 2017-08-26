@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView tools:context="shahin.quranmisharyrashid.Activities.FridayAndAlkahfActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorMainFridayAndKahf">
+
+        <Button
+            android:id="@+id/btnFadaal"
+            android:text="اقرأ عن الفضائل التي ذكرت"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getFadaal"
+            android:background="@android:drawable/dialog_holo_light_frame" />
+
+        <TextView
+            android:id="@+id/tvSuratAlkahf"
+            android:text="@string/sorat_alkahf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_30"
+            android:padding="@dimen/size_20"
+            android:lineSpacingMultiplier="1.5"
+            android:lineSpacingExtra="@dimen/size_10" />
+
+
+    </LinearLayout>
+</ScrollView>
