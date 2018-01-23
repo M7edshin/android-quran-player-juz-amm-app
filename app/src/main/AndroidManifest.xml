@@ -10,12 +10,13 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Activities.PlayerActivity"
-            android:configChanges="locale|orientation|screenSize"
-            android:label="@string/quran_juz_amm_recitation_by_mishary_rashid"
+            android:screenOrientation="portrait"
+            android:label="@string/juz_am"
             android:parentActivityName=".Activities.MainActivity" />
         <activity
             android:name=".Activities.MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,20 +26,19 @@
         <activity
             android:name=".Activities.AzkarSabahMasaaActivity"
             android:label="@string/azkar_sabah_masaa"
-            android:parentActivityName=".Activities.MainActivity" />
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activities.FridayAndAlkahfActivity"
             android:label="@string/friday_kahf"
-            android:parentActivityName=".Activities.MainActivity" />
-        <activity
-            android:name=".Activities.AltawbaActivity"
-            android:label="@string/altawba"
-            android:parentActivityName=".Activities.MainActivity"></activity>
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
 
         <activity
             android:label="@string/tasabeeh"
             android:name=".Activities.TasabeehAzkarActivity"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait">
 
         </activity>
 

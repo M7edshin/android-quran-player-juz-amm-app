@@ -13,9 +13,6 @@ import java.util.ArrayList;
 import shahin.quranmisharyrashid.Models.Azkar;
 import shahin.quranmisharyrashid.R;
 
-/**
- * Created by M7edShin on 18/08/2017.
- */
 
 public class AzkarAdapter extends ArrayAdapter<Azkar> {
 
@@ -41,9 +38,9 @@ public class AzkarAdapter extends ArrayAdapter<Azkar> {
             viewHolder = new ViewHolder();
             LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.azkar_item_list, parent, false);
-            viewHolder.tvAlzikr = (TextView) convertView.findViewById(R.id.tvAlzikr);
-            viewHolder.tvTimes = (TextView) convertView.findViewById(R.id.tvTimes);
-            viewHolder.tvBenefits = (TextView) convertView.findViewById(R.id.tvBenefits);
+            viewHolder.tvAlzikr = convertView.findViewById(R.id.tvAlzikr);
+            viewHolder.tvTimes = convertView.findViewById(R.id.tvTimes);
+            viewHolder.tvBenefits = convertView.findViewById(R.id.tvBenefits);
             convertView.setTag(viewHolder);
 
         } else {

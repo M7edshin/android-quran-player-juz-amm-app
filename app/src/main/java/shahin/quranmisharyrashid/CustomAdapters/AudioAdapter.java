@@ -2,6 +2,7 @@ package shahin.quranmisharyrashid.CustomAdapters;
 
 import android.app.Activity;
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +29,7 @@ public class AudioAdapter extends ArrayAdapter<Audio> {
     }
 
 
+    @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
@@ -40,9 +42,9 @@ public class AudioAdapter extends ArrayAdapter<Audio> {
             viewHolder = new ViewHolder();
             LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.verse_item_list, parent, false);
-            viewHolder.verseTitle = (TextView) convertView.findViewById(R.id.tvSura);
-            viewHolder.verseTransliteration = (TextView) convertView.findViewById(R.id.tvSuraArEn);
-            viewHolder.verseEnglishTitle = (TextView) convertView.findViewById(R.id.tvSuraEn);
+            viewHolder.verseTitle = convertView.findViewById(R.id.tvSura);
+            viewHolder.verseTransliteration = convertView.findViewById(R.id.tvSuraArEn);
+            viewHolder.verseEnglishTitle = convertView.findViewById(R.id.tvSuraEn);
             convertView.setTag(viewHolder);
 
         } else {

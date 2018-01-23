@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "372340152864",
+    "firebase_url": "https://islamic-guide-app.firebaseio.com",
+    "project_id": "islamic-guide-app",
+    "storage_bucket": "islamic-guide-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372340152864:android:88f5ff4ea62e592b",
+        "android_client_info": {
+          "package_name": "shahin.quranmisharyrashid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372340152864-vfrf4so8ujf7s2gn4d0r11kiv0et3uaj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shahin.quranmisharyrashid",
+            "certificate_hash": "ce184a31bfd9d0a447e04239d075ea41928a39fc"
+          }
+        },
+        {
+          "client_id": "372340152864-pqvgrn0ldarnhd0fc1740mksvhsifqsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYrpMo3md8zUXMEvkWMj2Tdhury2CRH7M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372340152864-pqvgrn0ldarnhd0fc1740mksvhsifqsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

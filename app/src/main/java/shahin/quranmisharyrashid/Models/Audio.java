@@ -1,10 +1,5 @@
 package shahin.quranmisharyrashid.Models;
 
-/**
- * Created by Mohamed Shahin
- * Audio class to specify information about an audio file (in this app - Quran Verses)
- */
-
 public class Audio {
 
     private String verseTitle, verseTransliteration, verseEnglishTitle;

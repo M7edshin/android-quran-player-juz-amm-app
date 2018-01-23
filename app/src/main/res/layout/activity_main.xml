@@ -35,15 +35,6 @@
         android:background="@color/colorMainTasabeeh" />
 
     <TextView
-        android:id="@+id/tvAltawba"
-        android:text="@string/altawba"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        style="@style/MainActivityStyle"
-        android:background="@color/colorMainAlTawba" />
-
-    <TextView
         android:id="@+id/tvFridayKahfFadaal"
         android:text="@string/friday_kahf"
         android:layout_width="match_parent"
@@ -51,6 +42,20 @@
         android:layout_weight="1"
         style="@style/MainActivityStyle"
         android:background="@color/colorMainFridayAndKahf" />
+
+    <TextView
+        android:id="@+id/tvAltawba"
+        android:text="@string/altawba"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/MainActivityStyle" />
+
+    <VideoView
+        android:id="@+id/video_view_quran_asrafoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_5" />
 
 
 </LinearLayout>

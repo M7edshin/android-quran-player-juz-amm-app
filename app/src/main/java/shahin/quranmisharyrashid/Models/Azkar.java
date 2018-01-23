@@ -1,8 +1,5 @@
 package shahin.quranmisharyrashid.Models;
 
-/**
- * Created by M7edShin on 18/08/2017.
- */
 
 public class Azkar {
 

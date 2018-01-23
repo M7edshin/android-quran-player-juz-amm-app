@@ -2,19 +2,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/btnMishary"
-        android:title="About Mishary Rashid"
-        app:showAsAction="never" />
-
-    <item
         android:id="@+id/btnSuggest"
-        android:title="Suggest or Report"
+        android:title="@string/suggest_report"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/btnExit"
-        android:title="Exit"
-        app:showAsAction="never" />
+        android:id="@+id/action_stop"
+        android:title="@string/stop_sound"
+        app:showAsAction="ifRoom" />
 
 </menu>
 
